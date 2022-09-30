@@ -40,7 +40,7 @@ export const ThemeToggleButton = () => {
   } ,[])
 
   return isMounted 
-    ? <div className='inline-flex items-center p-[1px] rounded-3xl bg-orange-300 dark:bg-zinc-600'> 
+    ? <div className='inline-flex items-center p-[1px] rounded-3xl bg-rose-300 dark:bg-zinc-600'> 
       { themes.map(t => {
         const checked = t === theme
         return <button key={t} 
